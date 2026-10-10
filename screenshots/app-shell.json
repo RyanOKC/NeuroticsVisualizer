@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Schema",
+      "hasCanvas": true,
+      "bodyTextLen": 125,
+      "bodyTextHash": "1f3f19a630fefb7ee920500470ad534217289cec2fb70298729c8fdb114afc67",
+      "bodyTextPrefix": "SCHEMA Say It Before You're Ready Say It Before You're Ready One",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-shell.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Schema",
+      "hasCanvas": true,
+      "bodyTextLen": 125,
+      "bodyTextHash": "1f3f19a630fefb7ee920500470ad534217289cec2fb70298729c8fdb114afc67",
+      "bodyTextPrefix": "SCHEMA Say It Before You're Ready Say It Before You're Ready One",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-shell-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-shell.json"
+}

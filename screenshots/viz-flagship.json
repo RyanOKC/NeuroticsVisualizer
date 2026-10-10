@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Schema",
+      "hasCanvas": false,
+      "bodyTextLen": 137,
+      "bodyTextHash": "019b68645455f727b978e564a8790d0c0314866f1cd61fa7b6e93a884c9e8b68",
+      "bodyTextPrefix": "SCHEMA Say It Before You're Ready Look · Room Say It Before You'",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/viz-flagship.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Schema",
+      "hasCanvas": false,
+      "bodyTextLen": 137,
+      "bodyTextHash": "019b68645455f727b978e564a8790d0c0314866f1cd61fa7b6e93a884c9e8b68",
+      "bodyTextPrefix": "SCHEMA Say It Before You're Ready Look · Room Say It Before You'",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/viz-flagship-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/viz-flagship.json"
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <title>Ministry of Neurotics</title>
+  <rect width="16" height="16" rx="3" fill="#07080c"/>
+  <ellipse cx="8" cy="7" rx="4.4" ry="3.5" fill="#c4784a"/>
+  <ellipse cx="6.5" cy="6" rx="1.4" ry="0.75" fill="#efe6d8"/>
+  <circle cx="8" cy="12.2" r="1.15" fill="#3c6cff"/>
+</svg>

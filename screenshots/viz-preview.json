@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Schema",
+      "hasCanvas": true,
+      "bodyTextLen": 219,
+      "bodyTextHash": "7093986d6d2cf35da324e4194f8fd4dcbe224411e092591a0a2445deb573dedf",
+      "bodyTextPrefix": "GINGER SPECTRUM Schema Listen Stills Your songs, one room. Coppe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/viz-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Schema",
+      "hasCanvas": true,
+      "bodyTextLen": 219,
+      "bodyTextHash": "7093986d6d2cf35da324e4194f8fd4dcbe224411e092591a0a2445deb573dedf",
+      "bodyTextPrefix": "GINGER SPECTRUM Schema Listen Stills Your songs, one room. Coppe",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/viz-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/viz-preview.json"
+}

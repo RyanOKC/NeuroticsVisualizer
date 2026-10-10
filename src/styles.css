@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #07080c;
+  --color-surface: #12141c;
+  --color-surface-2: #1c1e28;
+  --color-fg: #efe6d8;
+  --color-muted: #9a9186;
+  --color-copper: #c4784a;
+  --color-line: #2c2a34;
+  --color-led: #3c6cff;
+  --color-led-violet: #7a4dff;
+  --color-led-green: #3d8f55;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  input,
+  textarea {
+    font: inherit;
+  }
+}
+
+.swatch-blue {
+  background: var(--color-led);
+}
+.swatch-violet {
+  background: var(--color-led-violet);
+}
+.swatch-green {
+  background: var(--color-led-green);
+}
+
+.safe-third {
+  position: absolute;
+  inset: 16.67%;
+  border: 1px solid color-mix(in oklab, var(--color-fg) 42%, transparent);
+  pointer-events: none;
+}
+
+.safe-third span {
+  position: absolute;
+  top: 0.35rem;
+  left: 0.45rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-fg);
+}
+
+.tabbar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 30;
+  display: flex;
+  border-top: 1px solid var(--color-line);
+  background: color-mix(in oklab, var(--color-bg) 92%, transparent);
+  padding-bottom: env(safe-area-inset-bottom);
+  backdrop-filter: blur(16px);
+}
+
+.stage-title {
+  padding: 1.25rem 1rem 4rem;
+  background: linear-gradient(to bottom, color-mix(in oklab, var(--color-bg) 70%, transparent), transparent);
+}
+
+.player-sheet {
+  position: absolute;
+  right: 0.75rem;
+  bottom: calc(0.75rem + env(safe-area-inset-bottom));
+  left: 0.75rem;
+  z-index: 20;
+  display: grid;
+  max-height: calc(100dvh - 1.5rem - env(safe-area-inset-bottom));
+  gap: 0.75rem;
+  overflow: auto;
+  padding: 0.75rem;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  background: color-mix(in oklab, var(--color-bg) 82%, transparent);
+  backdrop-filter: blur(16px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-spin {
+    animation: none;
+  }
+}
